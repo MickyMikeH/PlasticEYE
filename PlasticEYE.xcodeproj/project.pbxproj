@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7C553D5475531DE2B065488 /* libPods-PlasticEYE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6407DB18B71BCF9B6FD5CE /* libPods-PlasticEYE.a */; };
+		F42D6E661F0A980D007CA404 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D6E651F0A980D007CA404 /* DataManager.m */; };
+		F42D6E6C1F0E8518007CA404 /* LocalNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D6E6B1F0E8518007CA404 /* LocalNotify.m */; };
+		F42D6E6F1F0E894E007CA404 /* DataListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D6E6E1F0E894E007CA404 /* DataListTableViewController.m */; };
+		F42D6E731F0FC515007CA404 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D6E711F0FC515007CA404 /* MainViewController.m */; };
+		F42D6E771F0FCA3D007CA404 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D6E761F0FCA3D007CA404 /* UserDefaultManager.m */; };
+		F42D6E7B1F0FED40007CA404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42D6E7A1F0FED40007CA404 /* Main.storyboard */; };
 		F4BD0DAD1F0A74AA00D306D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD0DAC1F0A74AA00D306D6 /* main.m */; };
 		F4BD0DB01F0A74AA00D306D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD0DAF1F0A74AA00D306D6 /* AppDelegate.m */; };
 		F4BD0DB31F0A74AA00D306D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD0DB21F0A74AA00D306D6 /* ViewController.m */; };
-		F4BD0DB61F0A74AA00D306D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BD0DB41F0A74AA00D306D6 /* Main.storyboard */; };
 		F4BD0DB81F0A74AA00D306D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BD0DB71F0A74AA00D306D6 /* Assets.xcassets */; };
 		F4BD0DBB1F0A74AA00D306D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BD0DB91F0A74AA00D306D6 /* LaunchScreen.storyboard */; };
+		F4BD0DC51F0A761F00D306D6 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD0DC31F0A761F00D306D6 /* ActionViewController.m */; };
+		F4BD0DC61F0A761F00D306D6 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BD0DC41F0A761F00D306D6 /* ActionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E6407DB18B71BCF9B6FD5CE /* libPods-PlasticEYE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlasticEYE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9F14BED8D01882F40AE5EA /* Pods-PlasticEYE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlasticEYE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlasticEYE/Pods-PlasticEYE.debug.xcconfig"; sourceTree = "<group>"; };
+		9DAB5D08832EBB6A52E317D3 /* Pods-PlasticEYE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlasticEYE.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlasticEYE/Pods-PlasticEYE.release.xcconfig"; sourceTree = "<group>"; };
+		F42D6E641F0A980D007CA404 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		F42D6E651F0A980D007CA404 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F42D6E6A1F0E8518007CA404 /* LocalNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotify.h; sourceTree = "<group>"; };
+		F42D6E6B1F0E8518007CA404 /* LocalNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotify.m; sourceTree = "<group>"; };
+		F42D6E6D1F0E894E007CA404 /* DataListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataListTableViewController.h; sourceTree = "<group>"; };
+		F42D6E6E1F0E894E007CA404 /* DataListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataListTableViewController.m; sourceTree = "<group>"; };
+		F42D6E701F0FC515007CA404 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F42D6E711F0FC515007CA404 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F42D6E751F0FCA3D007CA404 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
+		F42D6E761F0FCA3D007CA404 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
+		F42D6E7A1F0FED40007CA404 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F4BD0DA81F0A74AA00D306D6 /* PlasticEYE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlasticEYE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BD0DAC1F0A74AA00D306D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4BD0DAE1F0A74AA00D306D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4BD0DAF1F0A74AA00D306D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F4BD0DB11F0A74AA00D306D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F4BD0DB21F0A74AA00D306D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F4BD0DB51F0A74AA00D306D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4BD0DB71F0A74AA00D306D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4BD0DBA1F0A74AA00D306D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4BD0DBC1F0A74AA00D306D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD0DC21F0A761F00D306D6 /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		F4BD0DC31F0A761F00D306D6 /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		F4BD0DC41F0A761F00D306D6 /* ActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C553D5475531DE2B065488 /* libPods-PlasticEYE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57423D48A1C97D4092418835 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F14BED8D01882F40AE5EA /* Pods-PlasticEYE.debug.xcconfig */,
+				9DAB5D08832EBB6A52E317D3 /* Pods-PlasticEYE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8337DB8D5E6ED09F37E14059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E6407DB18B71BCF9B6FD5CE /* libPods-PlasticEYE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4BD0D9F1F0A74AA00D306D6 = {
 			isa = PBXGroup;
 			children = (
 				F4BD0DAA1F0A74AA00D306D6 /* PlasticEYE */,
 				F4BD0DA91F0A74AA00D306D6 /* Products */,
+				8337DB8D5E6ED09F37E14059 /* Frameworks */,
+				57423D48A1C97D4092418835 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +104,24 @@
 			children = (
 				F4BD0DAE1F0A74AA00D306D6 /* AppDelegate.h */,
 				F4BD0DAF1F0A74AA00D306D6 /* AppDelegate.m */,
+				F42D6E6A1F0E8518007CA404 /* LocalNotify.h */,
+				F42D6E6B1F0E8518007CA404 /* LocalNotify.m */,
 				F4BD0DB11F0A74AA00D306D6 /* ViewController.h */,
 				F4BD0DB21F0A74AA00D306D6 /* ViewController.m */,
-				F4BD0DB41F0A74AA00D306D6 /* Main.storyboard */,
+				F42D6E641F0A980D007CA404 /* DataManager.h */,
+				F42D6E651F0A980D007CA404 /* DataManager.m */,
+				F42D6E6D1F0E894E007CA404 /* DataListTableViewController.h */,
+				F42D6E6E1F0E894E007CA404 /* DataListTableViewController.m */,
+				F4BD0DC21F0A761F00D306D6 /* ActionViewController.h */,
+				F4BD0DC31F0A761F00D306D6 /* ActionViewController.m */,
+				F42D6E701F0FC515007CA404 /* MainViewController.h */,
+				F42D6E711F0FC515007CA404 /* MainViewController.m */,
+				F42D6E751F0FCA3D007CA404 /* UserDefaultManager.h */,
+				F42D6E761F0FCA3D007CA404 /* UserDefaultManager.m */,
+				F4BD0DC41F0A761F00D306D6 /* ActionViewController.xib */,
 				F4BD0DB71F0A74AA00D306D6 /* Assets.xcassets */,
 				F4BD0DB91F0A74AA00D306D6 /* LaunchScreen.storyboard */,
+				F42D6E7A1F0FED40007CA404 /* Main.storyboard */,
 				F4BD0DBC1F0A74AA00D306D6 /* Info.plist */,
 				F4BD0DAB1F0A74AA00D306D6 /* Supporting Files */,
 			);
@@ -86,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4BD0DBF1F0A74AA00D306D6 /* Build configuration list for PBXNativeTarget "PlasticEYE" */;
 			buildPhases = (
+				9973023EB496E574F864CAEA /* [CP] Check Pods Manifest.lock */,
 				F4BD0DA41F0A74AA00D306D6 /* Sources */,
 				F4BD0DA51F0A74AA00D306D6 /* Frameworks */,
 				F4BD0DA61F0A74AA00D306D6 /* Resources */,
+				EF809EC6E3C15793F712CB1C /* [CP] Embed Pods Frameworks */,
+				291C196D284821CE0F76B2B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +170,7 @@
 				TargetAttributes = {
 					F4BD0DA71F0A74AA00D306D6 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 754HUZV587;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,20 +199,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4BD0DBB1F0A74AA00D306D6 /* LaunchScreen.storyboard in Resources */,
+				F42D6E7B1F0FED40007CA404 /* Main.storyboard in Resources */,
 				F4BD0DB81F0A74AA00D306D6 /* Assets.xcassets in Resources */,
-				F4BD0DB61F0A74AA00D306D6 /* Main.storyboard in Resources */,
+				F4BD0DC61F0A761F00D306D6 /* ActionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291C196D284821CE0F76B2B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlasticEYE/Pods-PlasticEYE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9973023EB496E574F864CAEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF809EC6E3C15793F712CB1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlasticEYE/Pods-PlasticEYE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4BD0DA41F0A74AA00D306D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42D6E771F0FCA3D007CA404 /* UserDefaultManager.m in Sources */,
+				F42D6E6F1F0E894E007CA404 /* DataListTableViewController.m in Sources */,
+				F42D6E6C1F0E8518007CA404 /* LocalNotify.m in Sources */,
 				F4BD0DB31F0A74AA00D306D6 /* ViewController.m in Sources */,
+				F42D6E731F0FC515007CA404 /* MainViewController.m in Sources */,
+				F42D6E661F0A980D007CA404 /* DataManager.m in Sources */,
 				F4BD0DB01F0A74AA00D306D6 /* AppDelegate.m in Sources */,
+				F4BD0DC51F0A761F00D306D6 /* ActionViewController.m in Sources */,
 				F4BD0DAD1F0A74AA00D306D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +275,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4BD0DB41F0A74AA00D306D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4BD0DB51F0A74AA00D306D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4BD0DB91F0A74AA00D306D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,23 +380,31 @@
 		};
 		F4BD0DC01F0A74AA00D306D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9F14BED8D01882F40AE5EA /* Pods-PlasticEYE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 754HUZV587;
 				INFOPLIST_FILE = PlasticEYE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PlasticEYE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F4BD0DC11F0A74AA00D306D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAB5D08832EBB6A52E317D3 /* Pods-PlasticEYE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 754HUZV587;
 				INFOPLIST_FILE = PlasticEYE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PlasticEYE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -311,6 +427,7 @@
 				F4BD0DC11F0A74AA00D306D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

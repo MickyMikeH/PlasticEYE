@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActionViewController">
+            <connections>
+                <outlet property="leftEyeButton" destination="dXh-7N-ZWT" id="Zam-yz-dwW"/>
+                <outlet property="rightEyeButton" destination="lBS-A2-dew" id="5Eq-r5-Zwn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8Z-AX-0zE">
+                    <rect key="frame" x="0.0" y="531" width="375" height="53"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="6kv-sz-ngh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="確定"/>
+                    <connections>
+                        <action selector="done:" destination="-1" eventType="touchUpInside" id="GmF-Xb-Gwa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXh-7N-ZWT">
+                    <rect key="frame" x="0.0" y="283" width="185" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="gCd-g1-9zL"/>
+                        <constraint firstAttribute="width" constant="185" id="hs8-oR-p2i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="左眼"/>
+                    <connections>
+                        <action selector="eyeButtonHandler:" destination="-1" eventType="touchUpInside" id="4SA-Tn-KUo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBS-A2-dew">
+                    <rect key="frame" x="193" y="283" width="182" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="byV-gt-VBr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="右眼"/>
+                    <connections>
+                        <action selector="eyeButtonHandler:" destination="-1" eventType="touchUpInside" id="9GI-mi-pht"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hAz-lJ-tWN">
+                    <rect key="frame" x="0.0" y="209" width="375" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="icJ-ch-ISc"/>
+                    </constraints>
+                    <segments>
+                        <segment title="相同週期"/>
+                        <segment title="不同週期"/>
+                    </segments>
+                    <connections>
+                        <action selector="cycleSegment:" destination="-1" eventType="valueChanged" id="qrL-Gj-eS3"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Z8Z-AX-0zE" secondAttribute="trailing" id="6FI-ME-pdS"/>
+                <constraint firstItem="dXh-7N-ZWT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HtC-KR-yGh"/>
+                <constraint firstAttribute="width" secondItem="lBS-A2-dew" secondAttribute="width" constant="193" id="JeL-TO-BFF"/>
+                <constraint firstItem="hAz-lJ-tWN" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="YGK-PJ-CaV"/>
+                <constraint firstAttribute="bottom" secondItem="Z8Z-AX-0zE" secondAttribute="bottom" constant="83" id="ahq-js-qLp"/>
+                <constraint firstItem="dXh-7N-ZWT" firstAttribute="top" secondItem="hAz-lJ-tWN" secondAttribute="bottom" constant="30" id="aqn-qc-5rh"/>
+                <constraint firstItem="hAz-lJ-tWN" firstAttribute="leading" secondItem="dXh-7N-ZWT" secondAttribute="leading" id="bHq-HE-Fj1"/>
+                <constraint firstItem="Z8Z-AX-0zE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cJE-jL-RM5"/>
+                <constraint firstItem="dXh-7N-ZWT" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gVs-Wm-ZTf"/>
+                <constraint firstItem="lBS-A2-dew" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hdq-5c-HIT"/>
+                <constraint firstItem="dXh-7N-ZWT" firstAttribute="baseline" secondItem="lBS-A2-dew" secondAttribute="baseline" id="vnx-CX-1nL"/>
+                <constraint firstAttribute="trailing" secondItem="lBS-A2-dew" secondAttribute="trailing" id="wXR-Or-j3A"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

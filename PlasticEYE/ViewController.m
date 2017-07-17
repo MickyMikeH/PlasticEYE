@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ActionViewController.h"
+#import "DataListTableViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    DataListTableViewController *nextVC = [DataListTableViewController new];
+//    nextVC.title = @"資料表";
+//    ActionViewController *nextVC = [[ActionViewController alloc] init];
+//    nextVC.title = @"請設定有效期限";
+//    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 
